@@ -15,9 +15,9 @@ def send_command_to_lamp(status):
         print("sent commmand:"+command+" to lamp")
 
 time.sleep(1)        
-send_command_to_lame("on")
+send_command_to_lamp("on")
 time.sleep(2)
-send_commane_to_lamp("off")
+send_command_to_lamp("off")
 
 
 
